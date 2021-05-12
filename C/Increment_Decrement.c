@@ -13,4 +13,6 @@ int	main() {
 	printf("\nx = %d and y = %d", x, y);
 	x = --y;
 	printf("\nx = %d and y = %d", x, y);
+
+	return 0;
 }
