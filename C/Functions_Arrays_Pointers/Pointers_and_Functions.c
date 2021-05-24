@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+void	swap(int *num1, int *num2) {
+	int temp;
+
+	temp = *num1;
+	*num1 = *num2;
+	*num2 = temp;
+}
+
+int	main() {
+	int x = 25;
+	int y = 100;
+
+	printf("x is %d, y is %d\n", x, y);
+	swap(&x, &y);
+	printf("x is %d, y is %d\n", x, y);
+
+	return 0;
+}
+
+/*
+ * Pointers are better to use because on other functions, because you can change the information directly by the memory adress.
+ */
