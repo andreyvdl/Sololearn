@@ -17,3 +17,7 @@ void* square (const void *num) {
 
 	return &result;
 }
+
+/*
+ * If you declare that a function is a pointer void, then you can return an int, or float or char.
+*/
