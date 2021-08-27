@@ -27,3 +27,8 @@ int main() {
 		printf("Id number: %d", car1.id.id_num);
 	return 0;
 }
+
+/*
+ * Surprising Union can be used inside a typedef.
+ * As showed in the e.g. only one info will be utilized by the union, so better put some ifs.
+*/
