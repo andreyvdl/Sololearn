@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>SVG Animations & Paths</title>
+		<meta charset="UTF-8">
+	</head>
+	<body>
+		<svg width="1000" height="250">
+			<rect width="150" height="150" fill="orange">
+				<animate attributeName="x" from="0" to="300" dur="3s" fill="freeze" repeatCount="indefinite"></animate>
+			</rect>
+			<path d="M 0 150 L200 250 L200 150 Z" style="stroke:#000; fill:none"></path>
+		</svg>
+		<hr>
+		<em style="color: #B00B15">
+			The tag "animate, /animate" animates the svg form that they are inside, their attributes are:<br>
+			<b>attributeName</b>: mark the name of the attribute to be animated;<br>
+			<b>from</b>: mark the start point;<br>
+			<b>to</b>: mark the end point;<br>
+			<b>dur</b>: marks how long the animation will take to be completed;<br>
+			<b>fill</b>: marks if the "to" value will be "remove" or "freeze", if it will be reset or will be hold;<br>
+			<b>repeatCount</b>: marks how many times the animation will happen or it will be "indefinite";<br>
+			<br>
+			The "path, /path" tag defines a path, using the "d" attribute we can add some information:<br>
+			<b>M</b>: moveto;<br>
+			<b>L</b>: lineto;<br>
+			<b>H</b>: horizontal lineto;<br>
+			<b>V</b>: vertical lineto;<br>
+			<b>C</b>: curveto;<br>
+			<b>S</b>: smooth curveto;<br>
+			<b>Q</b>: quadratic Bézier curve;<br>
+			<b>T</b>: smooth quadratic Bézier curveto;<br>
+			<b>A</b>: elliptical Arc;<br>
+			<b>Z</b>: closepath;<br>
+			M is the start point and Z the end point;
+		</em>
+	</body>
+</html>

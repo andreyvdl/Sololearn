@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Scalable Vector Graphics</title>
+		<meta charset="UTF-8">
+	</head>
+	<body>
+		<img src="C:\Users\INTEL\Downloads\svg.svg" alt="Can't load this SVG" height="300">
+		<svg width="1000" height="1000">
+			<circle cx="80" cy="80" r="50" fill="green" stroke="black"></circle>
+			<rect width="300" height="100" x="150" y="20" fill="blue"></rect>
+			<line x1="10" y1="120" x2="200" y2="200" style="stroke:#000000; stroke-linecap: round; stroke-width: 20;"></line>
+			<polyline style="stroke-linejoin:miter; stroke:black; stroke-width: 12; fill: none;" points="100 300, 150 350, 200 300"></polyline>
+			<ellipse cx="200" cy="450" rx="150" ry="70" style="fill: red;"></ellipse>
+			<polygon points="100 600, 200 600, 200 700" style="fill: purple; stroke: black;"></polygon>
+		</svg>
+		<hr>
+		<em style="color: #B00B15;">
+			SVG means Scalable Vector Graphics;<br>
+			It's a image that is not based on pixel, so you can scale it without losing quality;<br>
+			The tag "svg, /svg" defines the area to create shapes with svg;<br>
+			The "cicle, /circle" tag, creates a circle, the attribute "cx" defines the Horizontal location, the "cy" attribute defines the Vertical location, the "r" attribute defines the radius, the attribute "fill" defines the color of the shape and "stroke" attribute defines the outline color;<br>
+			<br>
+			Every element and attribute of a SVG can be animated;<br>
+			The "rect, /rect" tag creates a rectangle, the attributes "x and y" defines the position;<br>
+			The "line, /line" tag creates a line, the attributes "x1 and y1" defines the initial position, the attributes "x2 and y2" the final position, "stroke" defines the color, "stroke-linecap" defines the heads of the line and "stroke-width" defines how thick the line is;<br>
+			<br>
+			The "polyline, /polyline" tag creates a polygonal line, "fill" attribute defines if it will be a color between the points, "points" defines the points of the line the first value is X the second is Y you use a comma to separate the points;<br>
+			The "ellipse, /ellipse" tag creates a ellipse, the "rx" attribute defines the horizontal radius, the "ry" attribute defines the vertical radius;<br>
+			The "polygon, /polygon" creates a polygon;
+		</em>
+	</body>
+</html>
