@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>HTML5 Forms New Features</title>
+		<meta charset="UTF-8">
+	</head>
+	<body>
+		<form>
+			<label>Your name:</label>
+			<input id="user" name="username" type="text"><br>
+
+			<label for="email">Your e-mail address:</label>
+			<input id="email" type="email" name="email" placeholder="example@email.com" autofocus required><br>
+
+			<label>Search:</label>
+			<input id="mysearch" name="searchitem" type="search"><br>
+
+			<label>Car color:</label>
+			<input id="car" type="text" list="colors">
+			<datalist id="colors">
+				<option value="Red"></option>
+				<option value="Green"></option>
+				<option value="Blue"></option>
+			</datalist><br>
+
+			<label>Url:</label>
+			<input id="url" name="url" type="url" placeholder="exemple.com"><br>
+			<label>Telephone:</label>
+			<input id="tel" name="tel" type="tel" placeholder="11 11111-1111"><br>
+			<input type="submit" value="Submit">
+		</form>
+		<hr>
+		<em style="color: #B00B15;">
+			Some things have changed with HTML5;<br>
+			Now you can add a "autofocus" attribute to focus on that input after the page load;<br>
+			Also the "required" attribute can be used to force the user to fill a input;<br>
+			<br>
+
+			Theres some new input types:<br>
+			color;<br>
+			date;<br>
+			datetime;<br>
+			datetime-local;<br>
+			email;<br>
+			month;<br>
+			number;<br>
+			range;<br>
+			search;<br>
+			tel;<br>
+			time;<br>
+			url;<br>
+			week;<br>
+			<br>
+
+			Theres also some new attributes:<br>
+			form;<br>
+			formaction;<br>
+			formenctype;<br>
+			formmethod;<br>
+			formnovalidate;<br>
+			formtarget;<br>
+			height and width;<br>
+			list;<br>
+			min and max;<br>
+			multiple;<br>
+			pattern (regexp);<br>
+			placeholder;<br>
+			step;<br>
+			<br>
+
+			The "datalist, /datalist" creates a datalist container;<br>
+			The "option, /option" tag creates a option that will be on the datalist;<br>
+			The input box will load the datalist and the options inside of the datalist as a drop-down list;
+		</em>
+	</body>
+</html>
