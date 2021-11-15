@@ -1,0 +1,30 @@
+/*
+A style rule is divided in three parts:
+Selector	property	value*/
+h1 {		color:		white; }
+
+/*
+The declaration block can have multiple declarations, they need to be separated by a semicolon and breaking a line.
+*/
+
+p {
+	color: red;
+	font-size: 130%;
+}
+
+/*
+The type selector determines the target element, in the e.g. above it will focus on all paragraph tag;
+To target a class we need to add a dot before the class name ".navegation";
+To target a id we need to add a hashtag before the id name "#menu".
+*/
+
+#intro .first em {
+	color: pink;
+	background-color: gray;
+	font-size: 200%;
+}
+
+/*
+You can set multiple type selectors on the same line to determine the exactly;
+So in the e.g. it will search an "intro" id, then it will search a "first" and will apply the style to the content on the "em" tag.
+*/
