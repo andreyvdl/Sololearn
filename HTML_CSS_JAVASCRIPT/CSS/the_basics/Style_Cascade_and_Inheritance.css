@@ -1,0 +1,10 @@
+/*
+The final appearance of the page will be defined by 3 points in cascade:
+The stylesheet created by the autor;
+The browser default style;
+The style specified by the user;
+*/
+
+/*
+A child element will take characteristics from the parent element, unless the otherwise is defined.
+*/
