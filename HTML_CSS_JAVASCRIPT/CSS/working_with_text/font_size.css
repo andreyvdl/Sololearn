@@ -1,0 +1,32 @@
+/*
+The font size change the size of the font;
+You can use pixels to define the size or words like "x-small, small, large, larger, xx-large" 
+*/
+p.small {
+	font-size: small;
+}
+
+p.medium {
+	font-size: medium;
+}
+
+p.large {
+	font-size: large;
+}
+
+p.xlarge {
+	font-size: x-large;
+}
+
+h1.pixel {
+	font-size: 20px;
+}
+
+/*
+An "em" size is calculated with the following formula:
+em = pixel / 16
+don't know why you could use this instead of pixels
+*/
+h1.em {
+	font-size: 1.25em;
+}

@@ -1,0 +1,17 @@
+/*
+Font style defines the style of the font, like bold, italic, normal and oblique...
+*/
+p.normal {
+	font-style: normal;
+}
+
+p.italic {
+	font-style: italic;
+}
+
+/*
+Oblique is similar to italic, but don't work on some browsers.
+*/
+p.oblique {
+	font-style: oblique;
+}

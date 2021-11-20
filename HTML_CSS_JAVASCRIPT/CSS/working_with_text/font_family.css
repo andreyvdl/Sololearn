@@ -1,0 +1,34 @@
+/*
+There are two types of property for fonts:
+Font Family, specifies the font... like comicsans...
+Generic Family, just sets the font family in a generic way, like serif and sansserif fonts;
+*/
+p.serif {
+	font-family: "Times New Roman", Times, serif;
+}
+
+p.sansserif {
+	font-family: helvetica, arial, sans-serif;
+}
+
+/*
+If a font has more than one word it need to be between quotation marks, like Times New Roman.
+*/
+p.monospace {
+	font-family: "Courier New", Courier, monospace;
+}
+
+p.cursive {
+	font-family: Florence, cursive;
+}
+
+p.fantasy {
+	font-family: Blippo, fantasy;
+}
+
+/*
+It's a good idea to have a plan B in case the user don't have some fonts.
+*/
+body {
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
