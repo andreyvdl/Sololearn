@@ -1,0 +1,20 @@
+/*
+color changes the color of the text.
+*/
+p.example {
+	color: green;
+}
+
+/*
+You can also use hexadecimal;
+*/
+h1 {
+	color: #0000FF;
+}
+
+/*
+Or rgb values.
+*/
+p.rgb {
+	color: rgb(255, 0, 0);
+}

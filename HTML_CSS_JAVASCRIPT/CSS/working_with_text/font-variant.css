@@ -1,0 +1,10 @@
+/*
+font-variant converts text to small-caps text.
+*/
+p.normal {
+	font-variant: normal;
+}
+
+p.small {
+	font-variant: small-caps;
+}

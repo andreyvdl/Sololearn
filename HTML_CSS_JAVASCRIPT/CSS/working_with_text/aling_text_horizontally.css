@@ -1,0 +1,19 @@
+/*
+text-align, align the text;
+You can input a value like, left, right, center and justify.
+*/
+p.left {
+	text-align: left;
+}
+
+p.right {
+	text-align: right;
+}
+
+p.center {
+	text-align: center;
+}
+
+p.justify {
+	text-align: justify;
+}
