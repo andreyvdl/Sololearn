@@ -1,0 +1,7 @@
+/*
+text-indent gives some space to the text on the left;
+You can also use % and inherit
+*/
+p.indenting {
+	text-indent: 60px;
+}

@@ -1,0 +1,48 @@
+/*
+vertical-align aligns vertically... duh
+*/
+td.top {
+	vertical-align: top;
+}
+
+td.middle {
+	vertical-align: middle;
+}
+
+td.bottom {
+	vertical-align: bottom;
+}
+
+/*
+You can also use words like baseline, sub, super, and porcentage or pixel values;
+*/
+span.baseline {
+	vertical-align: baseline;
+}
+
+span.sub {
+	vertical-align: sub;
+}
+
+span.super {
+	vertical-align: super;
+}
+
+span.pixel {
+	vertical-align: -10px;
+}
+
+/*
+Sometimes you need to make a div container to work better.
+*/
+.main {
+	height: 150px;
+	width: 400px;
+	background-color: lightskyblue;
+	display: inline-table;
+}
+
+.paragraph {
+	display: table-cell;
+	vertical-align: middle;
+}

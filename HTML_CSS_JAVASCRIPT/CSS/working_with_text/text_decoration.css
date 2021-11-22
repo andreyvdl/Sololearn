@@ -1,0 +1,29 @@
+/*
+text-decoration let's you use some decoration for the text, like an overline, an underline or maybe a line-through;
+*/
+p.none {
+	text-decoration: none;
+}
+
+p.inherit {
+	text-decoration: inherit;
+}
+
+p.overline {
+	text-decoration: overline;
+}
+
+p.underline {
+	text-decoration: underline;
+}
+
+p.line-through {
+	text-decoration: line-through;
+}
+
+/*
+There's also blink, but browsers don't load it
+*/
+p.blink {
+	text-decoration: blink;
+}
