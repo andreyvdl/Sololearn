@@ -1,0 +1,14 @@
+/*
+word-spacing gives space between words;
+It uses units like px, pt, cm, mm...*/
+p.normal {
+	word-spacing: normal;
+}
+
+p.px {
+	word-spacing: 30px;
+}
+
+p.negativeWord {
+	word-spacing: -5px;
+}

@@ -1,0 +1,14 @@
+/*
+letter-spacing defines the space of the letters;
+It uses units like px, pt, cm, mm...*/
+p.normalLetter {
+	letter-spacing: normal;
+}
+
+p.positive {
+	letter-spacing: 4px;
+}
+
+p.negativeLetter {
+	letter-spacing: -1.5px;
+}

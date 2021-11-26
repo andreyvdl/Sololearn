@@ -1,0 +1,20 @@
+/*
+This was suppose to ignore white spaces and lines breaks... but looks like html already does it...*/
+p.itjustwoks {
+	white-space: nowrap;
+}
+
+/*
+Now these work as it should be.
+*/
+p.pre {
+	white-space: pre;
+}
+
+p.preline {
+	white-space: pre-line;
+}
+
+p.prewrap {
+	white-space: pre-wrap;
+}
