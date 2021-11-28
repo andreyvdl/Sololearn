@@ -1,0 +1,17 @@
+/*
+background-image adds a image to the background;
+If the image is smaller than the element size, it will repeat the image vertically and horizontally*/
+body {
+	background-image: url(https://images.emojiterra.com/twitter/v13.1/512px/1f914.png);
+	background-color: #e9e9e9;
+}
+
+/*
+You can add more than one image by using a comma between the urls.
+*/
+p.paraDotPNG {
+	padding: 30px;
+	background-image: url(https://i.pinimg.com/236x/5c/44/a9/5c44a984fef2f369360b159fa457c836.jpg);
+	color: red;
+	font-weight: bold;
+}

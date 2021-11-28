@@ -1,0 +1,17 @@
+/*
+background-color defines the color of the background;
+*/
+p.background1 {
+	background-color: #87CEFA;
+}
+
+/*
+It can use hexadecimal, rgb or color names;
+*/
+h1 {
+	background-color: rgb(135, 206, 235);
+}
+
+p.background3 {
+	background-color: lightgreen;
+}

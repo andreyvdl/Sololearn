@@ -1,0 +1,30 @@
+/*
+width and height are used to define the size of a element
+*/
+div {
+	border: 5px solid green;
+	width: 90px;
+	height: 90px;
+}
+
+/*
+You can use porcentage and pixels
+*/
+div.porcentage {
+	border: 5px solid green;
+	width: 100%;
+	height: 90px;
+}
+
+/*
+With min/max-width and min/max-height you can define the minimum and maximum size
+*/
+p.first {
+	border: 5px solid green;
+	min-height: 100px;
+}
+
+p.second {
+	border: 5px solid green;
+	max-width: 100px;
+}
