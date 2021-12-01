@@ -1,0 +1,8 @@
+/*
+background-attachment can makes the background image stay while scrolling;
+if set to "fixed" will follow the scroll, if set to "scroll" will stay...
+yeah confuse.
+*/
+body {
+	background-attachment: fixed;
+}

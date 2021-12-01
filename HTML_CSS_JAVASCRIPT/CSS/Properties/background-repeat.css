@@ -1,0 +1,11 @@
+/*
+background-repeat can be set to repeat a background image or not;
+it can repeat in the x-axis or y-axis;
+you can only use one at time.
+*/
+body {
+	background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Wikipedia-logo.png/180px-Wikipedia-logo.png);
+	background-repeat: no-repeat;
+	/*background-repeat: repeat-x;*/
+	/*background-repeat: repeat-y;*/
+}
