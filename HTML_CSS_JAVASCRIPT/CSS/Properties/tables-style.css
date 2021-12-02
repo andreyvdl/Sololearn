@@ -1,0 +1,45 @@
+/*
+border-collapse, will define if the border of the table is together in one line or separated;
+if separate "border-spacing" can be used to give space between the borders;
+*/
+table.separate {
+	border-collapse: separate;
+	border-spacing: 20px 40px;
+}
+
+/*
+caption-side defines the position of the table caption;
+*/
+caption {
+	caption-side: top;
+}
+
+/*
+empty-cells will hide empty cells...
+*/
+table.empty {
+	border-collapse: separate;
+	empty-cells: hide;
+}
+
+table {
+	border-collapse: separate;
+	width: 100%;
+	border: 1px solid gray;
+}
+
+td {
+	border: 1px solid gray;
+}
+
+/*
+table-layout, defines how the width of the table columms is calculated;
+"auto" will respect proportion;
+"fixed" will disrespct proportion;*/
+table.auto {
+	table-layout: auto;
+}
+
+table.fixed {
+	table-layout: fixed;
+}

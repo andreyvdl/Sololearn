@@ -1,0 +1,20 @@
+/*
+we can the state of the link by usin two periods and a key word:
+a:link = unvisited link;
+a:visited = visited link;
+a:active = when the click happens;
+a:hover = when the mouse is over the link;
+BUT, there's a priority rule, link/visited -> hover -> active
+*/
+a:link {
+	/*the hyperlink will not have the underline*/
+	text-decoration: none;
+	/*
+	border: none; removes border from links in images;
+	outline: none; removes the dotted border on clicked lines in IE
+	*/
+}
+
+a:hover {
+	color:red;
+}
