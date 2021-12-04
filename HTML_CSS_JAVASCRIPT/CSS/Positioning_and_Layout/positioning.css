@@ -1,0 +1,38 @@
+/*
+position, permits to position the element;
+after setting the position value, you can use "top, bottom, right and left";
+a static position will follow the flow of the page and is the default value;
+*/
+p.position_static {
+	position: static;
+	top: 30px;
+	right: 5px;
+	color: red;
+}
+
+/*
+fixed, value will be relative to the window of the browser
+*/
+p.position_fixed {
+	position: fixed;
+	top: 30px;
+	right: 5px;
+	color: red;
+}
+
+p.border {
+	width: 350px;
+	border: 1px black solid;
+	position: fixed;
+}
+
+/*
+relative, value will change relative to the element original position;
+*/
+span.position_relative {
+	background: green;
+	color: white;
+	position: relative;
+	top: 150px;
+	left: 50px;
+}

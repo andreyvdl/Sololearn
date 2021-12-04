@@ -1,0 +1,27 @@
+/*
+display, will make all elements that affects work like a block element;
+in the e.g. the "span" element is a inline element that become a block element;
+and the "p" element is a block element that becoma an inline element;*/
+span.displayBlock {
+	display: block;
+}
+
+p.displayInline {
+	display: inline;
+}
+
+/*
+You can also not show the element
+*/
+h1.displayNone {
+	display: none;
+}
+/*
+We can also use other types of display:
+list-item;
+table;
+table-cell;
+table-column;
+grid;
+...
+*/

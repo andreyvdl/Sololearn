@@ -1,0 +1,7 @@
+/*
+visibility, can let the element visible or hidden;
+it will still occupy space;
+*/
+div.hidden {
+	visibility: hidden;
+}

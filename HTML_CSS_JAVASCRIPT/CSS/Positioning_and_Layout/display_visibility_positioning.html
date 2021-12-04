@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>ERROR: no creative title</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="displaying.css">
+		<link rel="stylesheet" href="visibility.css">
+		<link rel="stylesheet" href="positioning.css">
+	</head>
+	<body>
+		<span class="displayBlock">First paragraph.</span>
+		<span class="displayBlock">Second paragraph.</span>
+		<span class="displayBlock">Third paragraph.</span>
+		<span class="displayBlock">Fourth paragraph.</span>
+		<span class="displayBlock">Fifth paragraph.</span>
+		<br>
+		<p class="displayInline">First paragraph.</p>
+		<p class="displayInline">Second paragraph.</p>
+		<p class="displayInline">Third paragraph.</p>
+		<p class="displayInline">Fourth paragraph.</p>
+		<p class="displayInline">Fifth paragraph.</p>
+		<br><br>
+		<h1 class="displayNone">This text will not display, as we set the value to none.</h1>
+		<p>Headline of this paragraph is not displayed, as we set the value to none.</p>
+		<hr>
+
+		<h1>This is a heading</h1>
+		<div class="hidden">
+			This text will not display in browser.
+		</div>
+		<p>
+			The space above this paragraph is empty because 
+			the visibility of the div element is set to hidden.
+		</p>
+		<hr>
+
+		<p>Paragraph with no position.</p>
+		<p>Paragraph with no position.</p>
+		<p>Paragraph with no position.</p>
+		<p>Paragraph with no position.</p>
+		<p>Paragraph with no position.</p>
+		<p class="position_static">This paragraph has a static position.</p>
+		<p class="position_fixed">Fixed position.</p>
+		<p class="border">This is some paragraph with <span class="position_relative">span</span> inside it. This is some paragraph with <span class="position_relative">span</span> inside it. This is some paragraph with <span class="position_relative">span</span> inside it.</p>
+	</body>
+</html>
