@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Image floating, clear, overflow and Z index</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="floating.css">
+		<link rel="stylesheet" href="clear.css">
+		<link rel="stylesheet" href="overflow.css">
+		<link rel="stylesheet" href="z-index.css">
+	</head>
+	<body>
+		<p><img class="right" src="https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_vscode_icon_130084.png">
+			This paragraph has an image that is floated to the <strong>right.</strong> 
+			It is highly recommended to add a margin to images so that the text does 
+			not get too close to the image. If you want your text to be easily read, you 
+			should always add a few pixels between words and borders, images, 
+			and other content.
+		</p>
+		<hr>
+
+		This paragraph is above the div element 
+		and is not affected by the float right property. 
+		<br><br>
+		<div class="floating">
+			<img src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png">
+		</div>
+		This paragraph comes after the div element 
+		and is affected by the float right property. 
+		<br><br>
+		This paragraph also comes after the div element
+		and is affected by the float right property.
+		<br> <br>
+		<br/><br class="clearing"/>
+		This paragraph is out of the floating group 
+		and is not affected by the float right property.
+		<br/> <br/>
+		<hr>
+
+		<div class="overflow">
+			This text is inside the div element, which has a blue 
+			background color and is floated to the left. We set a specific 
+			height and width for the div element, and as you can see, 
+			the content cannot fit. 
+		</div>
+		<br><br><br><br><br><br><br><br>
+		<hr>
+
+		<p class="blue">
+			Blue
+		</p>
+		<p class="red">
+			Red
+		</p>
+	</body>
+</html>

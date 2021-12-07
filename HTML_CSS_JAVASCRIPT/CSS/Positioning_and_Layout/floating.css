@@ -1,0 +1,8 @@
+/*
+float, let's you push an element to the left or right;
+it can be used on images and layouts;
+*/
+img.right {
+	float: right;
+	width: 52px;
+}

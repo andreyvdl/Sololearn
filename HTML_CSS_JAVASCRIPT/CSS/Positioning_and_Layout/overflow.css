@@ -1,0 +1,12 @@
+/*
+overflow, will determine what happens when an element is bigger of it size;
+"scroll" will enable a scrollbar;
+"hidden" will cut the content;
+*/
+div.overflow {
+	width: 150px;
+	height: 150px;
+	background-color: lightblue;
+	float: left;
+	overflow: scroll;
+}

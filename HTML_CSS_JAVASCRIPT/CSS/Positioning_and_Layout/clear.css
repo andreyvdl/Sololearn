@@ -1,0 +1,11 @@
+.floating {
+	float: right;
+}
+
+/*
+clear, will clear the float effects;
+using "both" will clear both sides;
+*/
+.clearing {
+	clear: both;
+}
