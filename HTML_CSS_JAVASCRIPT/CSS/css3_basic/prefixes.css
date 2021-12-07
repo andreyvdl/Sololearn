@@ -1,0 +1,13 @@
+/*
+prefixes are ways that browsers add new features that maybe not be in CSS specification;
+here some prefixes:
+-moz- Firefox and other browsers using Mozilla's browser engine;
+-webkit- Safari, Chrome, Edge, Android, iOS and browsers using the Webkit engine;
+-o- Opera;
+-ms- Internet Explorer also old Edge;
+*/
+span.webkit {
+	border: green solid;
+	/*of course border-radius is a comum property by the year of 2021*/
+	-webkit-border-radius: 24px;
+}

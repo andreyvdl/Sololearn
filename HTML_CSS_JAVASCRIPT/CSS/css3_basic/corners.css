@@ -1,0 +1,31 @@
+/*
+border-radius makes the border of an element rounded;
+*/
+span.rounded {
+	border-radius: 20px;
+	background-color: green;
+	color: white;
+}
+
+/*
+You can also specify the parts of the border;
+the top-left, top-right, bottom-right & bottom-left;
+in a clockwise order;
+*/
+span.onlyBot {
+				/* TL TR BR BL */
+	border-radius: 0 0 20px 20px;
+	background-color: green;
+	color: white;
+}
+
+/*
+You can transform a square into a circle using border-radius;
+*/
+div.circle {
+	width: 200px;
+	height: 200px;
+	border-radius: 100px;
+	background-color: green;
+	color: white;
+}
