@@ -1,0 +1,17 @@
+/*
+The "inset" value will put the shadow inside the box;
+You can also set two shadows by using a comma;
+*/
+div.shadowTech {
+	width: 300px;
+	height: 100px;
+	background-color: #9ACD32;
+	box-shadow: -10px -10px 5px #888888, inset -10px -10px 5px #888888;
+}
+
+div.layerShadow {
+	width: 300px;
+	height: 100px;
+	background-color: #9ACD32;
+	box-shadow: inset 0 0 10px 4px #FF6347, 0 0 10px 30px #FFDAB9, 30px 0 20px 30px #B0E0E6;
+}

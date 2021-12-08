@@ -1,0 +1,13 @@
+/*
+box-shadow, adds a shadow to an element;
+the first value is the "x" value and the second the "y" value;
+the third value is the "blur value and the fourth the "spread" value;
+the color value is optional;
+negative values can be used to change the position;
+*/
+div.addShadow {
+	width: 300px;
+	height: 100px;
+	background-color: #9ACD32;
+	box-shadow: -10px -10px 5px -5px #888888;
+}
