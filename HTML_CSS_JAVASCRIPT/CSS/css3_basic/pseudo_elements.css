@@ -1,0 +1,25 @@
+/*
+pseudo-elements, are used to select specific parts of an element;
+they are defined by "::";
+there are 5 of them:
+::first-line, selects the first line of the element;
+::first-letter, selects the first letter of the element;
+::selection, selects a part of the element selected by the user;
+::before, insert content before the element;
+::after, insert content after the element;
+*/
+p.pseudo::selection {
+	background: #8BC34A;
+	color: #FFF;
+}
+
+/*
+You need to use the "content";
+*/
+p.before::before {
+	content: url(https://i.pinimg.com/originals/3c/05/4b/3c054bb7166ffd4cc8a7da20fd113e1e.jpg);
+}
+
+p.after::after {
+	content: url(https://i.pinimg.com/originals/d2/d9/05/d2d9050f7c2f3913681b86a0c36b42e8.jpg)
+}

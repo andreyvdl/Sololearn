@@ -1,0 +1,13 @@
+/*
+pseudo classes, are classes that exist in the document without using scripts;
+they are defined by ":";
+in the e.g. it will be used ":first-child" and ":last-child"*/
+#parent p:first-child {
+	color: red;
+	text-decoration: underline;
+}
+
+#parent p:last-child {
+	color:blue;
+	text-decoration:line-through;
+}

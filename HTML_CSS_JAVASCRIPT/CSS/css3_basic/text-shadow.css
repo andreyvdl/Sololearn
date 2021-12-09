@@ -1,0 +1,7 @@
+/*
+text-shadow, works like "box-shadow" but it focus on text;
+*/
+h1 {
+	text-shadow: 5px 10px 2px #93968f,
+		-3px 6px 5px #58d1e3;
+}
