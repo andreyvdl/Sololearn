@@ -1,0 +1,24 @@
+/*
+@font-face, let us to load custom fonts without the user needing to download them;
+inside the "@font-face" we need to add an "font-family" and "src";
+the source needs to end with a sufix of the font type;
+they can be:
+".ttf" True Type Fonts, for Firefox, Chrome, Safari and Opera;
+".otf" OpenType Fonts, for Firefox, Chrome, Safari and Opera;
+".eot" Embedded OpenType, for Internet Explorer;
+if you gonna use more than one type of font in internet explorer, add a "?#iefix" on the end to fix a bug;
+*/
+@font-face {
+	font-family: Delicious;
+	src: url('Delicious-Roman.otf');
+}
+
+@font-face {
+	font-family: Delicious;
+	font-weight: bold;
+	src: url('Delicious-Bold.otf');
+}
+
+h1 {
+	font-family: Delicious, sans-serif;
+}

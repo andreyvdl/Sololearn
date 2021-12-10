@@ -1,0 +1,11 @@
+/*
+word-wrap, has two values, "normal" and "break-word";
+when in "normal" if the word is bigger than the element size, it will overcome;
+when in "break-word" if the word is bigger than the element size, it will break it;
+*/
+p.breakIt {
+	width: 210px;
+	height: 100px;
+	border: 1px solid #000000;
+	word-wrap: break-word;
+}
