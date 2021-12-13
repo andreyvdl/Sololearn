@@ -1,0 +1,42 @@
+/*
+radial-gradient, creates a radial gradient;
+it's default form is "elipse";
+*/
+div.radial {
+	height: 150px;
+	width: 200px;
+	color: #FFF;
+	background: radial-gradient(green, yellow, blue);
+}
+
+div.radialCircle {
+	height: 150px;
+	width: 200px;
+	color: #FFF;
+	background: radial-gradient(circle, green, yellow, blue);
+}
+
+/*
+unlike, linear-gradient, insted of using "to" you will use "at";
+You can determine the position with words or with percentages, pixels and ems;
+*/
+div.radialCorner {
+	height: 150px;
+	width: 200px;
+	color: #FFF;
+	background: radial-gradient(at top left, green, yellow, blue);
+}
+
+div.radialPorcent {
+	height: 150px;
+	width: 200px;
+	color: #FFF;
+	background: radial-gradient(green 5%, yellow 15%, blue 60%);
+}
+
+div.radialStop {
+	height: 150px;
+	width: 200px;
+	color: #FFF;
+	background: radial-gradient(circle, green 40%, yellow 50%, blue 70%);
+}

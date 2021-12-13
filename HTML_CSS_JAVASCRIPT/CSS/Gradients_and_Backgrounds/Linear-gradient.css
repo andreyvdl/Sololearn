@@ -1,0 +1,76 @@
+/*
+linear-gradient, creates a linear gradient between 2 or more colors;
+you can use color names, hex values, RGB and HSL;
+*/
+div.linear {
+	float: left;
+	width: 300px;
+	height: 100px;
+	margin: 4px;
+	color: #FFF;
+	background: linear-gradient(DeepSkyBlue, Black);
+}
+
+div.linearMore {
+	float: left;
+	width: 300px;
+	height: 100px;
+	margin: 4px;
+	color: #FFF;
+	background: linear-gradient(Blue, Yellow, Green, Pink, White);
+}
+
+/*
+By using porcentages, pixels or ems, you limit the color to a position;
+*/
+div.linearPorcent {
+	float: left;
+	width: 300px;
+	height: 100px;
+	margin: 4px;
+	color: #FFF;
+	background: linear-gradient(Blue 20%, Yellow 30%, Green 85%);
+}
+
+/*
+You can determine if the gradient starts on the right, left or bottom, top is default;
+You need to add "to" before the side;
+mixing 2 sides will create a diagonal;
+you can also use "deg for diagonals;
+*/
+div.linearL {
+	float: left;
+	width: 300px;
+	height: 100px;
+	margin: 4px;
+	color: #FFF;
+	background: linear-gradient(to right, blue, green, white);
+}
+
+div.linearBottom {
+	float: left;
+	width: 300px;
+	height: 100px;
+	margin: 4px;
+	background: linear-gradient(to top left, blue, green, white);
+}
+
+div.linearDia {
+	float: left;
+	width: 300px;
+	height: 100px;
+	margin: 4px;
+	background: linear-gradient(-100deg, blue, green, white);
+}
+
+/*
+repeating-linear-gradient, will repeat the "linear-gradient";
+*/
+div.linearRepeat {
+	float: left;
+	width: 300px;
+	height: 100px;
+	margin: 4px;
+	color: #FFF;
+	background: repeating-linear-gradient(blue, green 20px);
+}

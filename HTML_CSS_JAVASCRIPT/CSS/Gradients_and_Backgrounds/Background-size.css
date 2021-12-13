@@ -1,0 +1,30 @@
+/*
+background-size, determines the size of the background image;
+*/
+div.background {
+	height: 150px;
+	width: 200px;
+	border: 1px solid #000;
+	background: url(https://api.sololearn.com/DownloadFile?id=3008) no-repeat 50% 50%;
+	background-size: 100px 100px;
+}
+
+/*
+the "contain" value will scale the image to proportionally fit the size;
+the "cover" value will scale the image to fit the size
+*/
+div.backgroundContain {
+	height: 150px;
+	width: 200px;
+	border: 1px solid #000;
+	background: url(https://api.sololearn.com/DownloadFile?id=2697) no-repeat 50% 50%;
+	background-size: contain;
+}
+
+div.backgroundCover {
+	height: 150px;
+	width: 200px;
+	border: 1px solid #000;
+	background: url(https://api.sololearn.com/DownloadFile?id=2698) no-repeat 50% 50%;
+	background-size: cover;
+}
