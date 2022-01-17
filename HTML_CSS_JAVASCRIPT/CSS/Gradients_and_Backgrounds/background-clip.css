@@ -1,0 +1,28 @@
+/*
+background-clip, defines the painting area of the background;
+"border-box" is the default value and it paint until the outside of the border;
+"padding-box" stop at the outside edge of the padding;
+"content-box" stop at the inside edge of the content box;
+*/
+
+div.clip1 {
+	border: 2px dotted black;
+	padding: 20px;
+	background: lightblue;
+	background-clip: padding-box;
+}
+
+div.clip2 {
+	border: 2px dotted black;
+	padding: 20px;
+	background: lightblue;
+	background-clip: content-box;
+}
+
+div.clipimg {
+	border: 2px dotted black;
+	padding: 20px;
+	color: red;
+	background-image: url(https://static.wikia.nocookie.net/metalgear/images/7/7c/THEBOX.jpg/revision/latest?cb=20050831142709);
+	background-clip: content-box;
+}

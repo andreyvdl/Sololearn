@@ -1,0 +1,8 @@
+/*
+The transparent borders can be made using "rgba";
+*/
+
+span.transparent {
+	background-clip: padding-box;
+	border: 20px solid rgba(0, 0, 0, 0.3);
+}
