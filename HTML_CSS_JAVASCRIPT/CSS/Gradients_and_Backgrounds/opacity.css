@@ -1,0 +1,24 @@
+/*
+opacity changes the... opacity..........
+*/
+
+img.opacity1 {
+	opacity: 1;
+}
+
+img.opacity2 {
+	opacity: 0.5;
+}
+
+img.opacity3 {
+	opacity: 0.25;
+}
+
+/*
+This one is just for Internet Explorer;
+*/
+
+img.IE {
+	opacity: 0.1;
+	filter: alpha(opacity=10);
+}
