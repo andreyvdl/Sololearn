@@ -1,0 +1,29 @@
+/*
+the transition have inputs to work
+"transition-property" calls a property to be transitioned;
+"transition-duration" tells the duration of the transitions;
+"transition-timing-function" tells the pace of the transition;
+"transition-delay" tells the delay of the transition effect;
+*/
+
+div.transition {
+	width: 50px;
+	height: 50px;
+	background: #32CD32;
+	transition: width 3s;
+	transition-timing-function: ease-out;
+}
+
+div.transition:hover {
+	width: 250px;
+}
+
+/*
+trasition-timing-function has some values;
+"ease" slowly, then accelerate;
+"ease-in" slowly, then accelerate and stops;
+"ease-out" quickly, then decelerates;
+"ease-in-out" ease-in and ease-out on the same;
+"linear" constant speed;
+"cubic-bezier()" let's you set the values from 0 to 1;
+*/
