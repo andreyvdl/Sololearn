@@ -1,0 +1,44 @@
+/*
+"transform-origin" changes the position of transformed elements;
+default value is "50% 50%";
+being the first the "x-axis" and the other "y-axis";
+*/
+div.empty-div {
+	position: relative;
+	height: 100px;
+	width: 100px;
+	margin: 30px;
+	padding: 10px;
+	border: 1px solid black;
+}
+
+div.green-div {
+	padding: 50px;
+	position: absolute;
+	background-color: #8bc34a;
+	border: 1px solid white;
+	transform: rotate(15deg);
+	transform-origin: 25% 75%;
+}
+
+/*
+"translate()" moves an element;
+the first value is the "x-axies" and the second the "y-axies"
+*/
+div.translated {
+	padding: 50px;
+	position: absolute;
+	background: #32CD32;
+	transform: translate(100px, 50px);
+}
+
+/*
+"skew()" skews the element on x-axies and y-axies by a value representing the angle;
+by using 2 values you can make a 3D effect;
+*/
+div.skewed {
+	width: 100px;
+	height: 100px;
+	background: darkred;
+	transform: skew(30deg, 10deg);
+}
