@@ -1,0 +1,42 @@
+/*
+"animation-timing-function" defines the timing, it's values can be:
+"ease" default, start slow, fast and end slow;
+"linear" linear speed;
+"ease-in" slow start;
+"ease-out" slow end;
+"ease-in-out" slow start and end;
+"cubic-bezier(n,n,n,n)" define your own values;
+
+"animation-delay" defines a delay before the animation start;
+
+"animation-iteration-count" defines how many times the animation repeat, "infinite" is a value;
+"animation-direction" defines how the keyframes are read, it values are:
+"normal" default;
+"reverse" from 100% to 0%;
+"alternate" from 0% to 100% then back to 0%;
+"alternate-reverse" from 100% to 0% then back to 100%;
+*/
+div.aniProp {
+	animation-name: grow;
+	animation-duration: 5s;
+	background-color:firebrick;
+	height: 10px;
+	width: 100px;
+	animation-timing-function: ease-out;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+
+/*
+You can also do all this above in one line with "animation";
+*/
+div.anime {
+	height: 10px;
+	width: 100px;
+	background-color: dodgerblue;
+	animation: grow 3s ease-in 1s infinite alternate-reverse
+}
+@keyframes grow {
+	from {width: 0px;}
+	to {width: 100px;}
+}

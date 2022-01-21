@@ -1,0 +1,23 @@
+/*
+"animation-name" is the name of the animation that can be called for the keyframes;
+"animation-duration" defines the time of the animation;
+*/
+div.keyframed {
+	width: 100px;
+	height: 100px;
+	background-color: purple;
+	animation-name: colorChange;
+	animation-duration: 2s;
+}
+
+/*
+"@keyframes" is used to define the keyframes of an animation;
+you need to call a "identifier";
+you can use porcentage to define points or use "from" and "to";
+*/
+@keyframes colorChange {
+	0% {background-color: red;}
+	50% {background-color: yellow;}
+	70% {background-color: blue;}
+	100% {background-color: green;}
+}
