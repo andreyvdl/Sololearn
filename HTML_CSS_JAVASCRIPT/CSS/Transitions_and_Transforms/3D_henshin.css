@@ -1,0 +1,76 @@
+div.original {
+	background-color: green;
+	width: 100px;
+	height: 100px;
+	color: white;
+}
+
+/*
+"rotateX/Y/Z()" will make a transformation in 3d each on it own axies;
+*/
+div.X {
+	background-color: green;
+	width: 100px;
+	height: 100px;
+	color: white;
+	transform: rotateX(120deg);
+}
+
+div.Y {
+	background-color: green;
+	width: 100px;
+	height: 100px;
+	color: white;
+	transform: rotateY(120deg);
+}
+
+div.Z {
+	background-color: green;
+	width: 100px;
+	height: 100px;
+	color: white;
+	transform: rotateZ(120deg);
+}
+
+/*
+"translateX/Y()" works just like translate, but on the axies X and Y;
+"translateZ()" moves the element into or out of the screen;
+*/
+div.mybox1 {
+	background-color: green;
+	width: 100px;
+	height: 100px;
+	color: white;
+	transform: translateX(29px)
+		translateY(5em)
+		translateZ(-13px);
+}
+
+/*
+You can also do this with "translate3d()";
+we also have "scale3d()";
+*/
+div.mybox2 {
+	background-color: green;
+	width: 100px;
+	height: 100px;
+	color: white;
+	transform: translate3d(-20px, 4em, 10px);
+}
+
+/*
+"perspective" affects the child element inside of it, not the element itself, and only if the child element is 3d transformed;
+*/
+div.empty-div {
+	width: 200px;
+	height: 200px;
+	border: 1px black solid;
+	perspective: 100px;
+}
+
+div.green-div {
+	background-color: green;
+	width: 100px;
+	height: 100px;
+	transform: rotateX(45deg);
+}
