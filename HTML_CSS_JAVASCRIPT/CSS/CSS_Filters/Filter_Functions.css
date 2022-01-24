@@ -1,0 +1,46 @@
+/*
+Just because the images were big :P
+*/
+img {
+	width: 300px;
+	height: 300px;
+}
+
+/*
+"grayscale()" makes an image gray;
+*/
+img.grayed {
+	filter: grayscale(100%);
+}
+
+/*
+"sepia()" mkaes the image reddish-brown;
+*/
+img.sepied {
+	filter: sepia(100%);
+}
+
+/*
+"saturate()" changes the saturation of the image, it can use percentage or a number value;
+*/
+img.dessaturated {
+	filter: saturate(50%);
+}
+
+img.supsaturated {
+	filter: saturate(2.5);
+}
+
+/*
+"hue-rotate()" changes the image color the degrees you set, so a red image 240deg changed will be blue;
+*/
+img.hue {
+	filter: hue-rotate(180deg);
+}
+
+/*
+"invert()" invert the colors;
+*/
+img.inverted {
+	filter: invert(70%);
+}

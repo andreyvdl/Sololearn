@@ -1,0 +1,22 @@
+/*
+filters are propertys that let you get effects like blurring or color shifting of an element;
+some filters are:
+blur();
+brightness();
+contrast();
+drop-shadow();
+grayscale();
+hue-rotate();
+invert();
+opacity();
+saturate();
+sepia();
+*/
+
+/*
+"drop-shadow(width height blur color)" creates a shadow for an element;
+*/
+
+p.dropshadow {
+	filter: drop-shadow(5px 9px 2px blue);
+}
