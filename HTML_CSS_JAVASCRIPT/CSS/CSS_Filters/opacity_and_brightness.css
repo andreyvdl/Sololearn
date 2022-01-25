@@ -1,0 +1,36 @@
+/*
+"opacity()" changes the opacity of the image;
+*/
+img.opacited {
+	filter: opacity(70%);
+}
+
+/*
+"brightness()" changes the brightness;
+0 is full dark;
+100 is default;
+P > 100 is brighter;
+you can also use number values;
+*/
+img.dark {
+	filter: brightness(50%);
+}
+
+img.bright {
+	filter: brightness(1.9);
+}
+
+/*
+"contrast()" changes the contrast of the image;
+has the same rules as brightness, but 0 will make the image gray;
+*/
+img.contrasted {
+	filter: contrast(140%);
+}
+
+/*
+"blur()" makes a blur effect on the image;
+*/
+img.blurred {
+	filter: blur(5px);
+}
