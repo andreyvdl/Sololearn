@@ -1,5 +1,5 @@
 /*
-Arithmetic Operators:
+Arithmetic Operators: 
 "+" addition 5 + 5 = 10;
 "-" subtraction 5 - 5 = 0;
 "*" multiplication 5 * 5 = 25
