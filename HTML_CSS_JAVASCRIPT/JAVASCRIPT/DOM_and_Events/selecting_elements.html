@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Elements</title>
+		<meta charset="UTF-8">
+	</head>
+	<body>
+		<h1 id="demo"></h1>
+		<h1 class="demo">hello</h1>
+		<h1 class="demo"></h1>
+		<h1 class="demo">olá</h1>
+		<p>hi</p>
+		<p>hello</p>
+		<p>olá</p>
+		<script>
+			/*
+			All HTML elements are objects, with properties and methods;
+			there are some document methods commonly used in HTML:
+			document.getElementById(id);
+			document.getElementsByClassName(name);
+			document.getElementsByTagName(name);
+			*/
+			var elem = document.getElementById("demo");
+			elem.innerHTML = "Hello World!";
+
+			var arr = document.getElementsByClassName("demo");
+			arr[1].innerHTML = "Hi";
+
+			arr = document.getElementsByTagName("p");
+			for (var x = 0; x < arr.length; x++)
+			{
+				arr[x].innerHTML = "Hi there";
+			}
+		</script>
+	</body>
+</html>

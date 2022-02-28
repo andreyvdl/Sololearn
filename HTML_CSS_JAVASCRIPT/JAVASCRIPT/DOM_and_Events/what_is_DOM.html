@@ -1,0 +1,22 @@
+<!--
+DOM means Document Object Model;
+it's what the browser builds when you open any webpage;
+the DOM looks like a tree, on the top you have Document, that connect with <html>, that connect with <head> and <body>, then the <head> connect with <title>, and the <body> connect with <h1> and <a>;
+so we can say they are basically the indentation, inside the document we have <html>, inside we have <head> and <body>, and goes on;
+-->
+<!doctype html>
+<html>
+	<head>
+		<title>DOM (not the one with demons)</title>
+		<meta charset="UTF-8">
+	</head>
+	<body>
+		<script>
+			/*
+			we changed the content of the document, on the tag body, that is an innerhtml element;
+			innerHTML let us change almost all HTML elements;
+			*/
+			document.body.innerHTML = "Some text";
+		</script>
+	</body>
+</html>
