@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Elements changing again</title>
+		<meta charset="UTF-8">
+	</head>
+	<body>
+		<div id="demo">Some content</div>
+		<script>
+			/*
+			more methods:
+			element.cloneNode() clones an element and returns the resulting node;
+			document.createElement(element) creates a new element node;
+			document.createTextNode(text) creates a new text node;
+			element.appendChild(newNode) adds a new child node to an element as the last child node;
+			element.insertBefore(node1, node2) inserts node1 as a child before node2;
+			
+			element.removeChild(node) removes the child of an element;
+
+			element.replaceChild(newNode, oldNode) replace oldNode by the newNode;
+			*/
+
+			var p = document.createElement("p");
+			var node = document.createTextNode("Some new text");
+			p.appendChild(node);
+
+			var div = document.getElementById("demo");
+			div.appendChild(p);
+		</script>
+	</body>
+</html>
