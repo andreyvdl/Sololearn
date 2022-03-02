@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>22</title>
+		<meta charset="UTF-8">
+	</head>
+	<body>
+		<button id="demo">Start</button>
+		<script>
+			/*
+			element.addEventListener(event, function, useCapture), attaches an event handler to an element;
+			element.removeEventListener(event, function), removes an event handler of an element;
+			*/
+			var btn = document.getElementById("demo");
+			btn.addEventListener("click", myFunction);
+
+			function myFunction() {
+				alert(Math.random());
+				btn.removeEventListener("click", myFunction);
+			}
+		</script>
+	</body>
+</html>
