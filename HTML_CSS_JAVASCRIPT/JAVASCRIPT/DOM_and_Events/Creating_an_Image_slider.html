@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Las Creaturas</title>
+		<meta charset="UTF-8">
+	</head>
+	<body>
+		<div>
+			<button onclick="prev()"> Prev </button>
+			<img id="slider" src="https://static.wikia.nocookie.net/typemoon/images/7/71/Neco-Arc_Remake.png/revision/latest?cb=20210902002059" width="200px" height="100px">
+			<button onclick="next()"> Next </button>
+		</div>
+		<script>
+			var images = ["https://static.wikia.nocookie.net/typemoon/images/7/71/Neco-Arc_Remake.png/revision/latest?cb=20210902002059",
+				"https://www.kindpng.com/picc/m/167-1672095_haunted-astolfo-bean-plushie-png-download-astolfo-plushie.png",
+				"https://static.wikia.nocookie.net/kirby/images/7/71/Kirby_KSA_Arte.png/revision/latest?cb=20200704132348&path-prefix=pt-br"
+				];
+			var num = 0
+
+			function next() {
+				var slider = document.getElementById("slider");
+				num++;
+				if (num >= images.length) {
+					num = 0;
+				}
+				slider.src = images[num];
+			}
+
+			function prev() {
+				var slider = document.getElementById("slider");
+				num--;
+				if (num < 0) {
+					num = images.length - 1;
+				}
+				slider.src = images[num]
+			}
+		</script>
+	</body>
+</html>
