@@ -1,0 +1,2 @@
+ECMAScript is a scripting language made to standardize JavaScript;
+ES6 is the 2015 version of ECMAScript and is a superset of JavaScript;
