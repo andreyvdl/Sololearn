@@ -4,7 +4,7 @@ If my explaining is hard to understand then I recommend you to run the code on y
 
 Let me know if you find any typo error, english isn't my mother language.
 
-![C certificate](https://www.sololearn.com/Certificate/1089-21722692/jpg).<br>
-![HTML certificate](https://www.sololearn.com/Certificate/1014-21722692/jpg).<br>
-![CSS certificate](https://www.sololearn.com/Certificate/1023-21722692/jpg).<br>
-![JavaScript certificate](https://www.sololearn.com/certificates/CT-QHRLMX2J).
+[C certificate](https://www.sololearn.com/Certificate/1089-21722692/jpg).<br>
+[HTML certificate](https://www.sololearn.com/Certificate/1014-21722692/jpg).<br>
+[CSS certificate](https://www.sololearn.com/Certificate/1023-21722692/jpg).<br>
+[JavaScript certificate](https://www.sololearn.com/certificates/CT-QHRLMX2J).
