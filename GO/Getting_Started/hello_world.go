@@ -11,7 +11,7 @@ import "fmt" // Besides declaring packages, we can import them;
 */
 
 func main() {
-	fmt.Println("Hello, World!😵‍💫")
+	fmt.Println("Hello, World!")
 }
 
 /*
@@ -26,4 +26,5 @@ func main() {
 ** The pattern to use an exported name from another package is:
 ** "<package_name>.<exported_name>";
 ** Just like we did with "fmt.Println";
- */
+** "Println" stands for "print line new";
+**/
