@@ -7,4 +7,5 @@ Let me know if you find any typo error, english isn't my mother language.
 [C certificate](https://www.sololearn.com/certificates/CT-BKDJW7Q3).<br>
 [HTML certificate](https://www.sololearn.com/certificates/CT-P4RZHEBX).<br>
 [CSS certificate](https://www.sololearn.com/certificates/CT-QSEPDEUT).<br>
-[JavaScript certificate](https://www.sololearn.com/certificates/CT-QHRLMX2J).
+[JavaScript certificate](https://www.sololearn.com/certificates/CT-QHRLMX2J).<br>
+[GO certificate](https://www.sololearn.com/certificates/CT-H85HBLRW).
