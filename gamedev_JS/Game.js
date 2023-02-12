@@ -11,7 +11,7 @@ window.onload = function() {
 		y -= 25;
 		context.clearRect(0, 0, 600, 400);
 		context.beginPath();
-		context.art(x, y, 50, 0, 2 * Math.PI);
+		context.arc(x, y, 50, 0, 2 * Math.PI);
 		context.fillStyle = "red";
 		context.fill();
 		context.font = '25px Arial';
