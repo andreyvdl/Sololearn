@@ -8,4 +8,5 @@ Let me know if you find any typo error, english isn't my mother language.
 [HTML certificate](https://www.sololearn.com/certificates/CT-P4RZHEBX).<br>
 [CSS certificate](https://www.sololearn.com/certificates/CT-QSEPDEUT).<br>
 [JavaScript certificate](https://www.sololearn.com/certificates/CT-QHRLMX2J).<br>
-[GO certificate](https://www.sololearn.com/certificates/CT-H85HBLRW).
+[GO certificate](https://www.sololearn.com/certificates/CT-H85HBLRW).<br>
+[JS Gamedev certificate](https://www.sololearn.com/certificates/CT-3F1MARVO).<br>
