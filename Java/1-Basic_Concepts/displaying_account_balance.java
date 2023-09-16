@@ -6,7 +6,7 @@
  * Task: Add the required types to make the program work as expected.
  */
 
-public class Program {
+public class displaying_account_balance {
 	public static void main(String[] args) {
 		// label = "Balance";
 		// balance = 599.84;

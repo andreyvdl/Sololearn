@@ -1,4 +1,4 @@
-public class Program {
+public class printing_string_and_numbers {
 	public static void main(String[] args) {
 		System.out.println("This is a string!");
 		System.out.println("This is a number sequence:");

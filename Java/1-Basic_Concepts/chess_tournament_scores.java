@@ -6,7 +6,7 @@
  * Create a program to calculate and output the points earned by the player.
  */
 
-public class Program {
+public class chess_tournament_scores {
 	public static void main(String[] args) {
 		int wins = 54;
 		int ties = 31;

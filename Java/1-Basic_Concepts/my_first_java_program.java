@@ -7,7 +7,7 @@
  * Complete the code to generate the required output.
  */
 
-public class Program
+public class my_first_java_program
 {
 	public static void main(String[] args) {
 		//System..println("My first Java Code Coach!");

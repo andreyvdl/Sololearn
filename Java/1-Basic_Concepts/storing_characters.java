@@ -4,7 +4,7 @@
  * Task: Complete the program to output the value of the variable.
  */
 
-public class Program {
+public class storing_characters {
 	public static void main(String[] args) {
 		String alphabet = "abcdefghijklmnopqrstuvwxyz";
 		/* add you code here */
