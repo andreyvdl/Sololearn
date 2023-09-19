@@ -6,5 +6,6 @@ public class math {
 		System.out.println(x + y);
 		// operations are the same as in math (+, -, *, /, %)
 		// adding two strings cocatenates them
+		System.out.println("This is" + " " + "three strings");
 	}
 }
