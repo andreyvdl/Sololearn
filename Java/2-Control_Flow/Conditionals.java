@@ -2,6 +2,7 @@ public class Conditionals {
 	public static void	main(String[] args) {
 		int	age = 24;
 		// condition comparators: ==, !=, <, >, <=, >=
+		// you can use multiple conditions with && (and) and || (or) and ! (not)
 		if (age >= 18) { // checek if a condition is true
 			System.out.println("Welcome");
 		}
